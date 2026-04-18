@@ -1,7 +1,10 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url(https://res-console.cloudinary.com/dx7boqg1x/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/UE5fZmx1ZmZ5LWNsb3Vkcy1mbG9hdC11bmRlci1hLXN0YXJyeS1uaWdodC1za3ktY2xpcGFydF9CYWNrZ3JvdW5kX1JlbW92ZWRfeTJpY2Fv/template_primary);
+  background-position: center;
   font-family: "Roboto", sans-serif;
-  /* width: fit-content; */
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
 }
 
 a {
@@ -10,7 +13,7 @@ a {
 
 .weather-app {
   background: white;
-  max-width: 600px;
+  width: max-content;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
@@ -32,6 +35,11 @@ header {
   padding: 15px 20px;
 }
 
+.search-form-input:hover {
+  cursor: pointer;
+  border: 1px solid #f4aeba;
+}
+
 .search-form-button {
   background: linear-gradient(
     109.6deg,
@@ -44,6 +52,7 @@ header {
   border-radius: 6px;
   font-size: 16px;
   color: white;
+  position: absolute;
 }
 
 main {
