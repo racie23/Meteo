@@ -2,8 +2,8 @@ body {
   background-image: url(https://res-console.cloudinary.com/dx7boqg1x/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/UE5fZmx1ZmZ5LWNsb3Vkcy1mbG9hdC11bmRlci1hLXN0YXJyeS1uaWdodC1za3ktY2xpcGFydF9CYWNrZ3JvdW5kX1JlbW92ZWRfeTJpY2Fv/template_primary);
   background-position: center;
   font-family: "Roboto", sans-serif;
-  width: fit-content;
-  height: fit-content;
+  max-width: 450px;
+  max-height: 450px;
   margin: 0 auto;
 }
 
